@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
   if (ros_enabled) {
       ros::init(argc, argv, "SP4Koordinator");
   }
-  printf("hello SP4");
+  printf("hello SP4Koordinator");
   // Create the main components
   Koordinator dialog(argc, argv);
   pds::MainWindow* window = new pds::MainWindow(&dialog);
