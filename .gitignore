@@ -5,8 +5,4 @@ install/
 src/build*/
 src/chatbot/
 src/chatbot_lm/
-src/SP4Koordinator/build/
-src/SP4Koordinator/devel/
-src/SP4Koordinator/install/
-src/SP4Koordinator/logs/
 
