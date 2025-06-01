@@ -4,5 +4,22 @@ logs/
 install/
 src/build*/
 src/chatbot/
-src/chatbot_lm/
 
+#VSCode settings
+.vscode/
+__pycache__/
+
+# Don't track AI models
+model/
+src/chatbot_lm/tts_train/
+src/chatbot_lm/checkpoints/
+src/chatbot_lm/.venv/
+src/chatbot_lm/fish-speech/
+src/chatbot_lm/whisperX/
+src/chatbot_lm/coqui-ai-TTS/
+src/chatbot_lm/src/train/
+src/chatbot_lm/src/train/
+
+# Don't track because API-Key
+src/chatbot_lm/src/speech_recognition.py
+	
